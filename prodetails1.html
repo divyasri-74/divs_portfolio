@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Project Title: Face Mask Detection using OpenCV</h2>
+    <h3>Project Overview:</h3>
+    <pre style="font-size: 30;">
+This project aims to build a real-time face mask detection system that 
+identifies whether a person is wearing a mask or not. It uses computer 
+vision and deep learning techniques to analyze live video feed and 
+classify detected faces as “Mask” or “No Mask.”
+    </pre>
+    <h3>
+        Objectives:
+    </h3>
+    <pre style="font-size: 30;">
+To detect human faces from a live webcam or image.
+
+To classify each detected face as wearing a mask or not wearing a mask.
+
+To provide visual feedback using bounding boxes and labels in real time.
+    </pre>
+    <h3>Tools and Technologies Used:-</h3>
+    <pre>
+Programming Language: Python
+
+Libraries & Frameworks:
+    </pre>
+<pre>OpenCV – for image processing and face detection
+
+TensorFlow / Keras – for building and training the CNN model
+
+NumPy – for array and numerical operations
+
+Matplotlib – for visualization (optional)</pre>
+<b>IDE:</b><pre>Jupyter Notebook / VS Code</pre>
+<b>Dataset:</b><pre>Publicly available Face Mask Detection Dataset (Kaggle)</pre>
+<h3>Working Process / Implementation Steps:</h3>
+<li>
+    <ol>
+        <li><b>Data Collection:</b></li>
+        <pre>Gathered images of people with and without masks from an open-source dataset.</pre>
+        <li><b>Data Preprocessing:</b>
+        <ul>
+            <li>
+                Resized and normalized images.
+            </li>
+            <li>Labeled images as “Mask” or “No Mask.”</li>
+        </ul>
+        </li>
+        <li><b>Model Building:</b>
+        <ul>
+            <li>Built a Convolutional Neural Network (CNN) using TensorFlow/Keras.</li>
+            <li>Trained the model to distinguish between masked and unmasked faces.</li>
+            <!-- <li></li> -->
+        </ul>
+        </li>
+        <li><b>Integration with OpenCV:</b>
+        <ul>
+            <li>Used OpenCV’s Haar Cascade or DNN for real-time face detection.</li>
+            <li>Passed the detected faces to the trained model for mask prediction.</li>
+        </ul>
+        </li>
+        <li>
+            <b>Output Visualization:</b>
+            <ul>
+                <li>
+                    Displayed results with green boxes for “Mask” and red boxes for “No Mask.”
+                </li>
+                <li>
+                    Showed live video feed with accurate label updates.
+                </li>
+            </ul>
+        </li>
+    
+    </ol>
+</li>
+<h3>Results:</h3>
+<li>
+    <ul>
+        <li>
+            Achieved high accuracy in real-time mask detection.
+        </li>
+        <li>Successfully tested on live webcam video and static images.</li>
+        <li>Demonstrated effective use of AI and computer vision for public safety applications.</li>
+    </ul>
+</li>
+</body>
+</html>
